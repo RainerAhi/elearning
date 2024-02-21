@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1576 1005" width="1576" height="1005">
+	<title>atriangle-svg</title>
+	<defs>
+		<image width="274" height="290" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJDYXBhXzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEzNi44MjI1ODM0MDMzIDE0NC41MzA4OTc5NjEzIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtzdHJva2U6I2ZmZjtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6M3B4O308L3N0eWxlPjwvZGVmcz48ZyBpZD0iQ2FwYV8yLTIiPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIyLjY0MDQ3MDYyMjcgMjYuMDkzNDkyNDA0OCAxMzQuNTk3MzE4MDc2MyAxLjkzMjM3OTQ5MDggODguMTMzNjM5Mzk1NSAxNDEuMzIzNDE1NTMzNCAyLjY0MDQ3MDYyMjcgMjYuMDkzNDkyNDA0OCIvPjwvZz48L3N2Zz4="/>
+		<image width="126" height="127" id="img2" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJDYXBhXzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEyNS4zMTYwOTk0NzYgMTI2LjY3ODY3NTk1ODUiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1taXRlcmxpbWl0OjEwO3N0cm9rZS13aWR0aDo0LjA0MTI3NTUwMTNweDt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkNhcGFfMi0yIj48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMi40MjQyNzAxMjY1IDI2LjY5NTQ0NjkxMDIgMjIuMTgxNjE2NTU4MyA4Mi4zNzUyNDEzOTk5IDY1LjI4ODU1NDIyNzggNzMuMzk0NjI5Mzg1NCA4NS4wNDU5MDA2NTk2IDEyMy42ODYwNTY2NjY0IDEyMi43NjQ0NzExMjAzIDEwMC4zMzY0NjU0Mjg4IDkyLjIzMDM5MDI3MTEgMzAuMjg3NjkxNzE2IDQ1LjUzMTIwNzc5NTkgNDIuODYwNTQ4NTM2MyAzNi41NTA1OTU3ODE1IDMuMzQ1ODU1NjcyNiAyLjQyNDI3MDEyNjUgMjYuNjk1NDQ2OTEwMiIvPjwvZz48L3N2Zz4="/>
+		<image width="118" height="144" id="img3" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJDYXBhXzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDExNy40ODY1NzUyOTc2IDE0My41ODkwMzc3OTk2Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtzdHJva2U6I2ZmZjtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6M3B4O308L3N0eWxlPjwvZGVmcz48ZyBpZD0iQ2FwYV8yLTIiPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIxMTUuNzE5NTQ2OTIzNyA3My4yMjM0ODY5NTg0IDg2LjYyODc0NTcwOTIgMS44MTg3OTMwNjgyIDIuMDAwOTYwMzU3OSAyNi41MDE4OTcxMjkgNDcuMzEyMDg3MDk4MSAxNDAuOTI1NzE1MjM5NCAxMTUuNzE5NTQ2OTIzNyA3My4yMjM0ODY5NTg0Ii8+PC9nPjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		.s0 { opacity: .2;mix-blend-mode: color-burn;fill: #000000 } 
+	</style>
+	<g id="Layer">
+		<g id="Capa_2">
+			<g id="Capa_2-2">
+				<path id="Layer" class="s0" d="m511.1 0l-511.1 921.9 1576 82.1-1064.9-1004z"/>
+			</g>
+		</g>
+		<use id="triangle" href="#img1" transform="matrix(.35,0,0,.362,128,142)"/>
+		<use id="2square" href="#img2" transform="matrix(1,0,0,1,332,867)"/>
+		<use id="square" href="#img3" transform="matrix(1,0,0,1,1226,184)"/>
+	</g>
+</svg>
