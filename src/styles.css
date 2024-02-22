@@ -65,7 +65,7 @@ body,
 
 .one-main-text {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   margin-left: 10%;
@@ -183,7 +183,7 @@ body,
 
 .two-main-text {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   z-index: 3;
@@ -255,7 +255,7 @@ body,
 
 .three-main-text {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   z-index: 3;
@@ -322,7 +322,7 @@ body,
 
 .four-main-text {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   z-index: 3;
@@ -402,7 +402,7 @@ body,
 
 .five-main-text {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   z-index: 3;
@@ -444,7 +444,7 @@ body,
 
 .six-main-text {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   z-index: 3;
@@ -497,7 +497,7 @@ body,
 
 .seven-main-text {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   z-index: 3;
@@ -583,14 +583,14 @@ body,
   position: absolute;
   right: 0;
   z-index: 10;
-  top: 50%;
-  transform: translateY(-40%);
-  margin-right: 15%;
+  top: 60%;
+  transform: translateY(-50%);
+  margin-right: 22.5%;
 }
 
 .eight-main-text {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   z-index: 3;
@@ -643,6 +643,69 @@ body,
   left: 0;
   opacity: 0;
 }
+
+
+.nine-main-text {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  z-index: 3;
+  opacity: 1;
+  opacity: 0;
+}
+
+
+.answer-button.selected {
+  border-color: white;
+  background-color: #231f32;
+}
+
+.answer-button {
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  border: white solid 5px;
+  border-radius: 50px;
+  margin-bottom: 10px; /* Add margin-bottom to create space between answer buttons */
+  padding: 20px;
+  width: 75%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.explanation-content {
+  flex-grow: 1; /* Allow the explanation content to expand to fill the remaining space */
+  background-color: transparent;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.explanation-content ul {
+  list-style-type: square; /* Remove default bullet points */
+  list-style: inside;
+  padding: 0;
+}
+
+.explanation-content ul li {
+  margin-bottom: 5px; /* Add margin between bullet points */
+}
+
+.nine {
+  display: flex;
+  background-color: #5d2654;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
 
 
 
@@ -1230,6 +1293,59 @@ html.lenis {
   bottom: 0;
   left: auto;
   margin-left: 0%;
+}
+
+
+
+.nine-main-text {
+  color: white;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  z-index: 3;
+  opacity: 1;
+}
+
+
+.answer-button.selected {
+  border-color: white;
+  background-color: #231f32;
+}
+
+.answer-button {
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  border: white solid 2px;
+  border-radius: 50px;
+  margin-bottom: 10px; /* Add margin-bottom to create space between answer buttons */
+  padding: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.explanation-content {
+  flex-grow: 1; /* Allow the explanation content to expand to fill the remaining space */
+  background-color: transparent;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+  margin-left: 0;
+}
+
+.explanation-content ul {
+  list-style-type: square; /* Remove default bullet points */
+  list-style: inside;
+  padding: 0;
+}
+
+.explanation-content ul li {
+  margin-bottom: 5px; /* Add margin between bullet points */
 }
 
 

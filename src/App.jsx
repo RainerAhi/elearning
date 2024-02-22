@@ -13,6 +13,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useThree } from "@react-three/fiber";
 import { useLayoutEffect } from "react";
+import { SectionNine } from "./Sections/SectionNine";
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -147,6 +148,15 @@ function App() {
                     end: "top 10%", scrub: 1,
                     immediateRender: false
                 }})
+
+
+                .to(".nine-main-text, .answer-button", { opacity: 1,
+                    scrollTrigger: {
+                        trigger: ".nine",
+                        start:"top center",
+                        end: "top 10%", scrub: 1,
+                        immediateRender: false
+                    }})
     
 
   }, [])
@@ -162,7 +172,8 @@ function App() {
             <SectionFive />
             <SectionSix />
             <SectionSeven />   
-            <SectionEight />         
+            <SectionEight /> 
+            <SectionNine />        
       </>
     )
 }
