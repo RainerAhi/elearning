@@ -174,7 +174,7 @@ body,
   display: flex;
   justify-content: center;
   background-color: #875eb1;
-  width: 700px;
+  width: 35%;
   height: 450px;
   z-index: 10;
   margin-top: 17.5%;
@@ -246,7 +246,7 @@ body,
   display: flex;
   justify-content: center;
   background-color: #cb7430;
-  width: 700px;
+  width: 35%;
   height: 400px;
   z-index: 10;
   margin-top: 15%;
@@ -369,7 +369,7 @@ body,
 
 .bk-bench {
   position: absolute;
-  height: 80%;
+  height: 70%;
   z-index: 6;
   right: 0;
   opacity: 0;
@@ -585,7 +585,7 @@ body,
   z-index: 10;
   top: 60%;
   transform: translateY(-50%);
-  margin-right: 22.5%;
+  margin-right: 15%;
 }
 
 .eight-main-text {
@@ -602,7 +602,7 @@ body,
   position: absolute;
   width: 12.5%;
   right: 0;
-  margin-right: 30%;
+  margin-right: 22.5%;
   margin-top: 5%;
   z-index: 10;
   opacity: 0;
