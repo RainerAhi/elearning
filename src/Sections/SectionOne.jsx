@@ -8,7 +8,7 @@ export const SectionOne = () => {
           <img className="background-triangle desktop" src="/atriangle.svg" />
           <img className="background-triangle mobile" src="/atrianglemobile.svg" />
 
-          <img className="background-phone" src="/aphone3.svg" />
+          <img className="background-phone" src="/aphone4.svg" />
           <img className="triangle" src="triangle.svg" />
           <img className="twosquare" src="2square.svg" />
           <img className="yellowsquare" src="yellowsquare.svg" />

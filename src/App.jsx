@@ -141,7 +141,39 @@ function App() {
                   immediateRender: false
               }})
 
+              .to(".bk-g-phone", { marginRight: "5%",
+                scrollTrigger: {
+                    trigger: ".seven",
+                    start:"top center",
+                    end: "top 10%", scrub: 1,
+                    immediateRender: false
+                }})
+
+                .to(".bk-g-emoji", { marginLeft: "22%",
+                scrollTrigger: {
+                    trigger: ".seven",
+                    start:"top center",
+                    end: "top 10%", scrub: 1,
+                    immediateRender: false
+                }})
+
               .to(".bk-phone-eight, .bk-h-emoji, .bk-eight, .eight-main-text", { opacity: 1,
+                scrollTrigger: {
+                    trigger: ".eight",
+                    start:"top center",
+                    end: "top 10%", scrub: 1,
+                    immediateRender: false
+                }})
+
+                .to(".bk-phone-eight", { marginLeft: "0%",
+                scrollTrigger: {
+                    trigger: ".eight",
+                    start:"top center",
+                    end: "top 10%", scrub: 1,
+                    immediateRender: false
+                }})
+
+                .to(".bk-h-emoji", { marginRight: "22.5%",
                 scrollTrigger: {
                     trigger: ".eight",
                     start:"top center",

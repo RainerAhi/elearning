@@ -10,7 +10,7 @@ export const SectionTwo = () => {
             <img className="bk-two mobile" src="/bmobile.svg" />
 
 
-            <img className="bk-phone-two" src="/bphone.svg" />
+            <img className="bk-phone-two" src="/mb2.png" />
             <div className="purple-box" >
                 <p className="two-main-text" >Alex no podía creerlo,<br />¿por qué alguien tan<br />cool estaría interesado<br />en hablarle a él?</p>
             </div>

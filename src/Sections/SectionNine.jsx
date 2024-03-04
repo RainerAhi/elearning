@@ -15,6 +15,7 @@ export const SectionNine = () => {
                                 <li>No existe igualdad en esta relación, es Alex a merced de lo que Juli quiera, y eso no es saludable. 🚫⚖️</li>
                                 <li>¿Qué es un relación impropia? Ver aquí.</li>
                             </ul>
+                            <button className="back-button" onClick={() => handleBackButtonClick()}>Volver</button>
                         </div>
                     )
                 },
@@ -28,6 +29,7 @@ export const SectionNine = () => {
                                 <li>Incluso si Juli se comportara de manera menos violenta, la gran diferencia de edad hace que esta relación sea impropia y puede afectar negativamente el desarrollo de Alex. 🙅‍♂️⏳</li>
                                 <li>¿Qué es un relación impropia? Ver aquí.</li>
                             </ul>
+                            <button className="back-button" onClick={() => handleBackButtonClick()}>Volver</button>
                         </div>
                     )
                 }
@@ -49,6 +51,10 @@ export const SectionNine = () => {
         setSelectedAnswerIndex(index);
     };
 
+    const handleBackButtonClick = () => {
+        setSelectedAnswerIndex(null);
+    };
+
     const currentQuestion = questions[selectedQuestionIndex];
 
     return (
@@ -62,7 +68,7 @@ export const SectionNine = () => {
                         {currentQuestion.answers.map((answer, answerIndex) => (
                             <div key={answerIndex} className="answer">
                                 <button
-                                    className={`answer-button ${selectedAnswerIndex === answerIndex ? 'selected' : ''}`}
+                                    className={`answer-button ${selectedAnswerIndex === answerIndex ? (answerIndex === 0 ? 'selected green' : 'selected red') : ''}`}
                                     onClick={() => handleAnswerClick(answerIndex)}
                                 >
                                     {answer.text}
@@ -71,7 +77,7 @@ export const SectionNine = () => {
                         ))}
                     </div>
                     {selectedAnswerIndex !== null && (
-                        <div className="explanation">
+                        <div className={`explanation ${selectedAnswerIndex === null ? '' : selectedAnswerIndex === 0 ? 'green' : 'red'}`}>
                             {currentQuestion.answers[selectedAnswerIndex].explanation}
                         </div>
                     )}
