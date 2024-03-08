@@ -494,6 +494,16 @@ body,
   font-weight: 400;
   color: #ff5061;
   border-radius: 20px;
+  animation: blink 1s infinite alternate; /* Apply animation */
+}
+
+@keyframes blink {
+  from {
+    opacity: 1; /* Fully visible */
+  }
+  to {
+    opacity: 0; /* Invisible */
+  }
 }
 
 .pop-up-image {
@@ -693,6 +703,7 @@ body,
   font-weight: 400;
   color: #ff5061;
   border-radius: 20px;
+  animation: blink 1s infinite alternate; /* Apply animation */
 } 
 
 .pop-up-eight-mobile {
@@ -1513,6 +1524,7 @@ html.lenis {
   bottom: 0;
   margin-left: 10%;
   margin-bottom: 5%;
+  animation: blink 1s infinite alternate; /* Apply animation */
 }
 
 
