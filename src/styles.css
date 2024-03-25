@@ -402,6 +402,7 @@ body,
   transform: translate(-50%, -50%);
   width: 80%; /* Adjust as needed */
   text-align: center;
+  z-index: 15;
 }
 
 .five-main-text {
@@ -417,6 +418,96 @@ body,
   color: #321e40;
 }
 
+.pop-up-five {
+  width: 325px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin: 0 auto; /* Center horizontally */
+  justify-content: center;
+  font-size: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: #ff5061;
+  border-radius: 20px;
+  z-index: 15;
+}
+
+.carousel-wrapper {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 20;
+  align-items: center;
+  justify-content: center;
+}
+
+.five-image-carousel {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  z-index: 20;
+  align-items: center;
+  justify-content: center;
+  width: 80vh;
+  opacity: 1;
+}
+
+.five-image-carousel-content {
+  width: 80%;
+}
+
+.back-button-carousel {
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  background-color: #321e40;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  bottom: 2.5vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prev-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  left: 0; /* Adjust as needed */
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  right: 0; /* Adjust as needed */
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
 /* SECTION SIX ELEMENTS */
 
 .six {
@@ -425,8 +516,7 @@ body,
   position: relative;
   width: 100%;
   height: 100vh;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
+
 }
 
 .six-overlay {
@@ -494,7 +584,6 @@ body,
   font-weight: 400;
   color: #ff5061;
   border-radius: 20px;
-  animation: blink 1s infinite alternate; /* Apply animation */
 }
 
 @keyframes blink {
@@ -1230,8 +1319,6 @@ html.lenis {
   position: relative;
   width: 100%;
   height: 100vh;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
 }
 
 .six-overlay {
