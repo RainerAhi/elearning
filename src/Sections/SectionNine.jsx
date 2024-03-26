@@ -17,11 +17,11 @@ export const SectionNine = () => {
                                 <h1>Recordá:</h1>
                                 <li>¡Si vos o una amigx necesitan ayuda, conversá con alguna persona adulta de confianza o llamá a alguna de estas líneas de apoyo.</li>
                                 <h1>Más info: </h1>
-                                <li>Qué son las relaciones impropias</li>
-                                <li>Leyes</li>
-                                <li>Pasos para denunciar</li>
-                                <li>Delitos relacionados </li>
-                                <li><a href="https://mequierenomequiere.org/mitos-del-amor-romantico/" target="_blank" >Mitos del amor romántico</a></li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/#que-es" target="_blank" >Qué son las relaciones impropias</a></li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/#leyes" target="_blank" >Leyes</a></li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/#denuncia" target="_blank" >Pasos para denunciar</a></li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/#delitos" target="_blank" ></a>Delitos relacionados</li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/" target="_blank" >Mitos del amor romántico</a></li>
                             </ul>
                             <button className="back-button" onClick={() => handleBackButtonClick()}>Volver</button>
                         </div>
@@ -40,11 +40,11 @@ export const SectionNine = () => {
                                 <h1>Recordá:</h1>
                                 <li>¡Si vos o una amigx necesitan ayuda, conversá con alguna persona adulta de confianza o llamá a alguna de <a href="https://mequierenomequiere.org/rutas-de-denuncia-cuales-son-las-lineas-de-apoyo-y-de-denuncia/" target="_blank" >estas líneas de apoyo.</a> </li>
                                 <h1>Más info: </h1>
-                                <li>Qué son las relaciones impropias</li>
-                                <li>Leyes</li>
-                                <li>Pasos para denunciar</li>
-                                <li>Delitos relacionados</li>
-                                <li><a href="https://mequierenomequiere.org/mitos-del-amor-romantico/" target="_blank" >Mitos del amor romántico</a></li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/#que-es" target="_blank" >Qué son las relaciones impropias</a></li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/#leyes" target="_blank" >Leyes</a></li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/#denuncia" target="_blank" >Pasos para denunciar</a></li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/#delitos" target="_blank" ></a>Delitos relacionados</li>
+                                <li><a href="https://mequierenomequiere.org/relaciones-impropias-2/" target="_blank" >Mitos del amor romántico</a></li>
                             </ul>
                             <button className="back-button" onClick={() => handleBackButtonClick()}>Volver</button>
                         </div>

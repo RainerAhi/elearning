@@ -16,16 +16,20 @@ export const SectionEight = () => {
             <img className="bk-h-backlightning" src="/backlightning.svg" />
             <div className="eight-text-align" >
                 <p className="eight-main-text" ><span className="text-red" >Santi explotó de ira.</span><br/> En mensajes muy violentos<br/> y un audio, le gritó a Alex<br/> que era un mocoso, que<br/> mantener el secreto era lo<br/> único que tenía que hacer...</p>
-                <div className="pop-up-eight" >
-                  <img  className="pop-up-image" src="/flag.svg" />
-                  <h1>Violencia verbal</h1>
-                </div>
+                <a target="_blank" href="https://mequierenomequiere.org/el-amor-no-lastima-circulo-de-la-violencia/" >
+                    <div className="pop-up-eight" >
+                    <img  className="pop-up-image" src="/flag.svg" />
+                    <h1>Violencia verbal</h1>
+                    </div>
+                </a>
             </div>
 
-            <div className="pop-up-eight-mobile" >
-                  <img  className="pop-up-image" src="/flag.svg" />
-                  <h1>Violencia verbal</h1>
-                </div>
+            <a target="_blank" href="https://mequierenomequiere.org/el-amor-no-lastima-circulo-de-la-violencia/" >
+                <div className="pop-up-eight-mobile" >
+                    <img  className="pop-up-image" src="/flag.svg" />
+                    <h1>Violencia verbal</h1>
+                    </div>
+            </a>
 
 
             </div>
